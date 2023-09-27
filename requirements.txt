@@ -1,5 +1,9 @@
-altair
-numpy
+requests
+bs4
 pandas
-pydeck
+pathlib
+datetime
+time
+urllib.parse
+re
 streamlit
