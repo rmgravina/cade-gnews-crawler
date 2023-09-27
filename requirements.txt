@@ -1,9 +1,4 @@
-requests
 bs4
-pandas
-pathlib
-datetime
-time
-urllib.parse
-re
+beautifulsoup4
 streamlit
+pandas
