@@ -225,10 +225,12 @@ if st.button("⛏⛏⛏SCRAP⛏⛏⛏"):
             return df.to_csv().encode('utf-8')
 
         csv = convert_df(data)
+        today = str(date.today())
+
 
         download_button = st.download_button(
             label="Download 📤",
             data=csv,
-            file_name='noticias.csv',
+            file_name='{}_{}.csv'.format(today, query_encode).replace('+', '-'),
             mime='text/csv',
         )
