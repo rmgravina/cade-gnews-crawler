@@ -205,6 +205,7 @@ if st.button("⛏⛏⛏SCRAP⛏⛏⛏"):
                         
                     st.write(data['titulo'][count])
                     st.write(i)
+                    st.download_button('📄 Donwload .txt', data['noticia'][count], file_name='{}_noticia.txt'.format(count), key="{}".format(count))
                     time.sleep(.5)
                     count += 1
 
