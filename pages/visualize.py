@@ -16,9 +16,7 @@ import sqlite3
 import services.database as database
 st. set_page_config(layout="wide")
 
-NER = spacy.load('pt_core_news_lg')
-
-
+NER = spacy.load('./pt_core_news_lg')
 
 
 st.title("📊 Análise de dados")
