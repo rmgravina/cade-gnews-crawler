@@ -2,6 +2,5 @@ bs4
 beautifulsoup4
 streamlit
 pandas
-sqlite3
 spacy
 spacy_streamlit
